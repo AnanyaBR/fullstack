@@ -1,0 +1,12 @@
+npm init
+npm install express
+
+index.js
+
+const express = require('express')
+const app = express()
+const port = 3035
+
+app.listen(port, ()=>{
+    console.log('listing on port', port)
+})
